@@ -125,6 +125,7 @@ install(FILES
     sketcherMinimizerResidueInteraction.h
     sketcherMinimizerRing.h
     sketcherMinimizerStretchInteraction.h
+    minimizerInterfaceC.h
     DESTINATION include/coordgen)
 
 install(EXPORT coordgen-targets
