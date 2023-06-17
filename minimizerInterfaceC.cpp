@@ -66,9 +66,9 @@ void setStereoBond(
 }
 
 void runGenerateCoordinates(sketcherMinimizerMolecule* min_mol) {
-    sketcherMinimizer minimizer;
-    minimizer.initialize(min_mol);
-    minimizer.runGenerateCoordinates();
+    sketcherMinimizer* minimizer = new sketcherMinimizer();
+    minimizer->initialize(min_mol);
+    minimizer->runGenerateCoordinates();
 }
 
 float getAtomX(sketcherMinimizerAtom* atom) {
